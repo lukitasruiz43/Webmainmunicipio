@@ -14,13 +14,13 @@ import java.util.List;
 public class SalidaControlador {
 
     @Autowired  //Inyección de dependencias
-    private UsuarioSalidaImp user;
+    private UsuarioSalidaImp salida;
 
 
     // Para obtener lista total de usuarios
     @RequestMapping(value = "api/salidas", method = RequestMethod.GET)
     public List<Salida> listaSalidas() {
-        return user.getLista();
+        return salida.getLista();
     }
 
     @RequestMapping(value = "api/usuarios/del/{id}", method = RequestMethod.DELETE)
