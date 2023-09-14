@@ -1,0 +1,12 @@
+com\WebApp\WebApp\repositories\UsuarioRepository.class
+com\WebApp\WebApp\models\Domicilio.class
+com\WebApp\WebApp\models\Salida.class
+com\WebApp\WebApp\controller\UsuarioController.class
+com\WebApp\WebApp\models\Usuario.class
+com\WebApp\WebApp\models\Personas.class
+com\WebApp\WebApp\models\Provincia.class
+com\WebApp\WebApp\dao\UsuarioDaoImp.class
+com\WebApp\WebApp\models\Entrada.class
+com\WebApp\WebApp\ServletInitializer.class
+com\WebApp\WebApp\WebAppApplication.class
+com\WebApp\WebApp\dao\UsuarioDao.class
