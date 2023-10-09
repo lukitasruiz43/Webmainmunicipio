@@ -1,0 +1,61 @@
+body
+{
+  background-color: rgb(219, 222, 224);
+  background-repeat: space;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin: 0%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.barra {
+  background-color: rgb(29, 27, 27);
+  display: flex;
+  padding: 100px 40px;
+  justify-content: space-around;
+  margin-top: -90px;
+  padding-bottom: 25px;
+  text-align: center;
+  border-radius: 12px;
+  color: aliceblue;
+}
+
+.menu{
+  text-align: center;
+  color: rgb(34, 33, 33);
+}
+
+
+img {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+*{
+    box-sizing: border-box;
+  }
+
+
+a:link, a:visited {
+  background-color: rgb(36, 36, 36);
+  color: white;
+  border-radius: 10px;
+  padding: 10px 60px;
+  margin-top: 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: 1px solid rgb(255, 255, 255);
+}
+@media only screen and (max-width: 600px){
+  .barra .topnav {
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+
+

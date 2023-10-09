@@ -12,7 +12,7 @@ import java.util.List;
 @CrossOrigin(origins = "*")
 public class HuellaControlador {
 
-    @Autowired  //Inyección de dependencias
+    @Autowired(required = false)  //Inyección de dependencias
     private PersonaDaoImp pers;
 
 

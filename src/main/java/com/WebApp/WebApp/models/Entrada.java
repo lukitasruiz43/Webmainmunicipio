@@ -6,16 +6,15 @@ import jakarta.persistence.*;
 @Table(name = "Entrada")
 public class Entrada {
 
-
+    @Column(name = "id")
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
     @Column(name = "nombre")
     private String nombre;
     @Column(name = "apellido")
     private String apellido;
 
-    @Column(name = "id")
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
     @Column(name = "DNI")
     private String DNI;
     @Column(name = "fecha")
