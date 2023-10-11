@@ -1,12 +1,9 @@
-<<<<<<< HEAD:src/main/resources/static/ingresar.html
-=======
 <?php
  include("conexion.php");
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 session_start();
 ?>
->>>>>>> c0072ef398e6d566e292d9a98d5361fd77e9c371:src/main/resources/static/ingresar.php
 
 <!DOCTYPE html>
 <html lang="es-ES">
